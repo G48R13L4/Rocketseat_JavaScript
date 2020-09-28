@@ -20,6 +20,49 @@
 
     <h1>Operadores Logicos</h1>
 
-    <script></script>
+    <script>
+      //AND , OR , NOT
+
+      //And
+      var sex = "F",
+        idade = 18;
+
+      if (sex === "F" && idade >= 18) {
+        console.log("OKAY");
+      } else {
+        console.log("Sorry :(");
+      }
+
+      //Or
+      var sex = "F",
+        idade = 18;
+
+      if (sex === "F" || idade >= 18) {
+        console.log("OKAY");
+      } else {
+        console.log("Sorry :(");
+      }
+
+      //Not
+      var sex = "H";
+
+      if (sex !== "F") {
+        console.log("Não é Feminino");
+      } else if (sex === "F") {
+        console.log("É Feminino");
+      }
+
+      //Armazenar o valor das condições em Variaveis
+
+      var sex = "M";
+      var masculino;
+      if (sex === "M") {
+        masculino = true;
+      } else {
+        masculino = false;
+      }
+
+      console.log(masculino);
+    </script>
   </body>
 </html>
