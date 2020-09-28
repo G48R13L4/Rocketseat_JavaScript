@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso JavaScript</title>
+    <style>
+      header {
+        color: #0a0a;
+      }
+      body {
+        background-color: #fffa;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>Rocketseat</nav>
+    </header>
+
+    <h1>Condicionais</h1>
+
+    <script>
+      function returnSex(sex) {
+        //M or F
+        //Masculine or Feminine
+
+        //if and else
+        if (sex === "M") {
+          return "Masculine";
+        } else if (sex === "F") {
+          return "Feminine";
+        } else {
+          return "Other";
+        }
+      }
+
+      //switch case
+
+      switch (sex) {
+        case "M":
+          return "Masculine";
+
+        case "F":
+          return "Feminine";
+
+        default:
+          return "Other";
+      }
+
+      var result = returnSex("C");
+
+      console.log(result);
+    </script>
+  </body>
+</html>
